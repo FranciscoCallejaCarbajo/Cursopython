@@ -1,107 +1,103 @@
-*{
+/* Reseteo de estilos globales */
+* {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
-
 }
 
-.imglogo{
+/* Estilos para el logo */
+.imglogo {
     width: 5rem;
-
 }
 
-body{
-    text-align: center;
-    font-family: sans-serif;
-
+/* Estilos para la imagen del título */
+.imgtitulo1 {
+    width: 20rem;
 }
 
-/* ol{
+/* Estilos generales del body */
+body {
+    text-align: center;  /* Centra el texto */
+    font-family: sans-serif;  /* Usa una fuente sans-serif */
+}
 
-    list-style: none;
-} */
-
-
-
-.head{
+/* Estilos para el encabezado fijo */
+.head {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 63px;
-    background-color: #171717;
-    position: fixed;
+    background-color: #1E1E1D;
+    position: fixed;  /* Fija el encabezado en la parte superior */
     width: 100%;
-    z-index: 100;
-
+    z-index: 100;  /* Coloca el encabezado por encima de otros elementos */
 }
 
-.navbar{
+/* Estilos para la barra de navegación */
+.navbar {
     display: flex;
     margin-right: 10px;
 }
 
-.logo{
+/* Estilos para el contenedor del logo */
+.logo {
     margin-left: 30px;
-
 }
 
+/* Estilos para los enlaces del logo */
 .logo a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     font-size: 20px;
-
 }
 
-.navbar a{
+/* Estilos para los enlaces de la barra de navegación */
+.navbar a {
     display: block;
     padding: 20px 20px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
-    
 }
 
+/* Estilos al hacer hover en los enlaces de navegación */
 .navbar a:hover {
     background-color: #3f3f3f;
-    
 }
 
+/* Estilos para el encabezado principal */
 .header {
-
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.header {
     height: 60vh !important;
     background: url(img/valoteam.png) no-repeat center;
-    background-size: cover;  /* Para que nos cubra 100% la imagen*/
-
+    background-size: cover;  /* Ajusta la imagen de fondo */
 }
 
+/* Estilos para el título principal */
 .title {
     margin-bottom: 40px;
     font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
     color: #fff;
-
 }
 
-p{
+/* Estilos para los párrafos */
+p {
     margin-bottom: 40px;
     font-size: 18px;
     color: #fff;
     padding: 0 100px;
 }
 
-.btn{
+/* Estilos para los botones */
+.btn {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
@@ -111,54 +107,55 @@ p{
     background-color: #9c27b0;
 }
 
-.btn:hover{
+/* Estilos al hacer hover en los botones */
+.btn:hover {
     background: none;
-
 }
 
-.btn-home{
+/* Estilos para los botones de la sección principal */
+.btn-home {
     display: flex;
-
 }
 
-.btn-home a{
+.btn-home a {
     margin: 0 10px;
-
 }
 
+/* Estilos para los contenedores de contenido */
 .content {
     height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
+/* Estilos para la sección "sau" */
 .sau {
     padding: 30px;
     background-color: #1d1d1d;
 }
 
+/* Estilos para el contenedor de los productos */
 .box-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
 }
-/*Aqui estoy indicando que voy a afectar a la clase box-container y box, es decir donde coincidan las dos*/
-/*1rem es = que 20px*/
+
+/* Estilos para los contenedores de cada producto */
 .box-container .box {
     height: 11rem;
     width: 17rem;
     background-color: #101010;
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 .3 5rem rgba(0,0,0,.5);
+    box-shadow: 0 .3rem 5rem rgba(0,0,0,.5);  /* Corregido el tamaño del box-shadow */
     margin: 2rem;
-
 }
 
+/* Estilos para los íconos de los productos */
 .box-container .box i {
     height: 3rem;
     width: 3rem;
@@ -170,51 +167,50 @@ p{
     margin: 1rem 0;
 }
 
+/* Estilos para los títulos de los productos */
 .box-container .box h3 {
     font-size: 20px;
     color: #9c27b0;
-    
 }
 
+/* Estilos para las descripciones de los productos */
 .box-container .box p {
     padding: 0 15px;
     font-size: 16px;
-
 }
 
+/* Estilos para la sección "about" */
 .about {
     background-color: #171717;
 }
 
+/* Estilos para la sección "price" */
 .price {
     background: url(img/gse.jpg) no-repeat center;
     background-attachment: fixed;
-    background-size: cover; /*Para que cubra la imagen todo*/
+    background-size: cover;
     text-align: center;
 }
 
+/* Estilos para la sección "contact" */
 .contact {
     padding-top: 20px;
     background-color: #171717;
     padding-bottom: 0;
-
 }
 
+/* Media Query para pantallas pequeñas */
 @media (max-width: 768px) {
-    
-    .title{
+    .title {
         margin-bottom: 0;
         font-size: 40px;
-
-
     }
 
-    .sau{
+    .sau {
         height: 120vh;
-
     }
 
-    .navbar{
+    .navbar {
         display: none;
     }
 }
