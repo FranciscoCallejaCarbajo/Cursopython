@@ -110,6 +110,7 @@ p {
     margin-top: 15px;
     padding: 10px 40px;
     /* border: 2px solid #1E1E1D; */
+    border-radius: 10px;
     border: 2px solid #FCBF00;
     color: #FCBF00;
     text-decoration: none;
@@ -195,7 +196,7 @@ p {
 }
 
 /* Estilos para la sección "price" */
-.price {
+.even {
     background: url(img/titan.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
@@ -208,6 +209,92 @@ p {
     background-color: #171717;
     padding-bottom: 0;
 }
+
+/* Estilos para el contenido general */
+body {
+    font-family: sans-serif;  
+    color: #333;  
+}
+
+/* Estilos específicos para la página "Nosotros" */
+
+/* Contenedor de la sección "Sobre Nosotros" */
+.about-us {
+    background-color: #1E1E1D;
+    padding: 50px 0;
+}
+
+/* Estilos para el artículo "Historia" */
+.history {
+    margin-bottom: 40px;
+}
+
+.history h3 {
+    color: #FCBF00;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el artículo "Misión y Visión" */
+.about-mision-vision{
+    background: url(img/titan.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.mission, .vision {
+    flex: 1;
+}
+
+.mission h3, .vision h3 {
+    color: #FCBF00;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la sección "Equipo" */
+.equipo-img{
+    background-color: #1E1E1D;
+}
+
+.team {
+    margin-bottom: 40px;
+}
+
+.team h3 {
+    color: #FCBF00;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la sección "Galería de Imágenes" */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-gallery img {
+    width: 30%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.btn:hover {
+    background-color: #3f3f3f;
+}
+
+
+
+
 
 /* Media Query para pantallas pequeñas */
 @media (max-width: 768px) {
