@@ -7,6 +7,14 @@
     vertical-align: baseline;
 }
 
+/* :root {
+    --color-primario: #1E1E1D;
+    --color-secundario: #FCBF00;
+    --color-fondo: #171717;
+    --color-texto: #fff;
+    
+} */
+
 /* Estilos para el logo */
 .imglogo {
     width: 5rem;
