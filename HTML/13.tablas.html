@@ -9,6 +9,8 @@
 <body>
   <h1>Tablas</h1>
 
+  <p>algo</p>
+
   <table>
     <tr>
       <th>Company</th>
@@ -91,6 +93,56 @@
       <td>Germany</td>
     </tr>
 
+  </table>
+
+  <h2>Bordes</h2>
+
+  <style>
+    #bordes {
+      border: 2px solid white;
+    }
+    #bordes tr, #bordes td, #bordes th {
+      border: 2px solid tomato;
+    }
+    #bordes {
+      border-collapse: separate; /* para visualizar los bordes de los elementos */
+    }
+    #bordes th {
+      background-color: beige;
+      text-align: center;
+      font-weight: 800;
+      color: black;
+    }
+    #bordes td {
+      background-color: aquamarine;
+      color: black;
+    }
+    #boton {
+      background-color: tomato;
+      color: white;
+      padding: 10px;
+      border-radius: 10px;
+    }
+  </style>
+
+  <p>Esto es un <a id="boton">botón</a>.</p>
+
+  <table id="bordes">
+    <tr>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>b</td>
+      <td>c</td>
+    </tr>
+    <tr>
+      <td>d</td>
+      <td>e</td>
+      <td>f</td>
+    </tr>
   </table>
 
 </body>
