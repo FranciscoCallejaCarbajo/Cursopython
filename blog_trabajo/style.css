@@ -322,6 +322,52 @@ body {
     background-color: #3f3f3f;
 }
 
+/* Encabezado de la página "Eventos" */
+.header3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(img/loschulis2.png) no-repeat center;
+    background-size: cover;  /* Ajusta la imagen de fondo */
+}
+
+/* Contenedor de la sección "Eventos" */
+.events {
+    background-color: #171717;
+    padding: 30px;
+}
+
+/* Estilos para el artículo "Eventos" */
+.events-description {
+    margin-bottom: 40px;
+}
+
+.evento h3 {
+    color: #FCBF00;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.evento p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0 100px;
+}
+
+/* Estilos para la galería de imágenes de "Eventos" */
+.events-gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-gallery {
+    width: 16rem;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    margin-right: 40px;  /* Aumenta el margen derecho */
+}
 
 /*Pie de Pagina*/
 /* Estilos para el pie de página */
@@ -342,25 +388,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Estilos para el contenedor de los productos */
-/* .box-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
-} */
-
-/* Estilos para los contenedores de cada producto */
-/* .box-container .box {
-    height: 11rem;
-    width: 17rem;
-    background-color: #101010;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(0,0,0,.5);
-    margin: 2rem; /*Margen entre las cajas
-    border: 1px solid #30BEF0; /* Añadir esta línea para establecer el color del borde 
-} */
 .footer-box {
     background-color: #101010;
     padding: 20px;
