@@ -194,6 +194,7 @@ p {
 /* Estilos para la sección "about" */
 .about {
     background-color: #171717;
+    padding: 30px;
 }
 
 /* Estilos para la sección "even" */
@@ -202,6 +203,7 @@ p {
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
+    padding: 15px;
 }
 
 /* Estilos para la sección "contact" */
@@ -231,7 +233,7 @@ body {
 /* Contenedor de la sección "Sobre Nosotros" */
 .about-us {
     background-color: #171717;
-    padding: 50px 0;
+    padding: 30px;
 }
 
 /* Estilos para el artículo "Historia" */
