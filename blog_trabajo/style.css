@@ -393,9 +393,9 @@ body {
     
 }
 
-/* Estilos para los controles de video */
+/* Estilos para los controles de video
 video::-webkit-media-controls {
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para los controles */
+    background-color: rgba(0, 0, 0, 0.7); Fondo semi-transparente para los controles
 }
 
 video::-webkit-media-controls-play-button,
@@ -403,8 +403,8 @@ video::-webkit-media-controls-volume-slider-container,
 video::-webkit-media-controls-timeline,
 video::-webkit-media-controls-current-time-display,
 video::-webkit-media-controls-time-remaining-display {
-    color: #FCBF00; /* Color de los controles */
-}
+    color: #FCBF00; Color de los controles
+} */
 
 /* Estilos para los controles de video al hacer hover */
 video:hover::-webkit-media-controls {
