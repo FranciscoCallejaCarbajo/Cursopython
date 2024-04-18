@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 60vh !important;
-    background: url(img/loschulis2.png) no-repeat center;
+    background: url(img/chico_lan.jpg) no-repeat center;
     background-size: cover;  /* Ajusta la imagen de fondo */
 }
 
@@ -48,7 +48,7 @@
 
 
 .video{
-    background: url(img/titan.jpg) no-repeat center;
+    background: url(img/lan_parti_lleida.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
