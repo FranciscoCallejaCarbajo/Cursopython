@@ -1,0 +1,142 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Estilos específicos para la página "Nosotros" */
+
+.header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(img/cod2.jpg) no-repeat center;
+    background-size: cover;  /* Ajusta la imagen de fondo */
+}
+
+/* Contenedor de la sección "Sobre Nosotros" */
+.about-us {
+    background-color: #171717;
+    padding: 30px;
+}
+
+/* Estilos para el artículo "Historia" */
+.history {
+    margin-bottom: 40px;
+}
+
+.history h3 {
+    color: #FCBF00;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el artículo "Misión y Visión" */
+.about-mision-vision{
+    background: url(img/Standlleida.jpg) no-repeat center; /*Esto hace que la imagen tenga movimiento*/
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.mission, .vision {
+    flex: 1;
+}
+
+.mission h3, .vision h3 {
+    color: #FCBF00;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la sección "Equipo" */
+.equipo-img{
+    background-color: #171717;
+}
+
+.team {
+    margin-bottom: 40px;
+}
+
+.team h3 {
+    color: #FCBF00;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la sección "Galería de Imágenes" */
+.galeria {
+    background: url(img/coche.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+
+}
+.gallery h3 {
+    color: #FCBF00;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-gallery img {
+    width: 16rem;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    margin-right: 40px;  /* Aumenta el margen derecho */
+}
+
+
+.btn:hover {
+    background-color: #3f3f3f;
+}
+
+/* Encabezado de la página "Eventos" */
+.header3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(img/loschulis2.png) no-repeat center;
+    background-size: cover;  /* Ajusta la imagen de fondo */
+}
+
+/* Contenedor de la sección "Eventos" */
+.events {
+    background-color: #1d1d1d;
+    padding: 30px;
+}
+
+/* Estilos para el artículo "Eventos" */
+.events-description {
+    margin-bottom: 40px;
+}
+.titleh3{
+    color: #FCBF00;
+}
+.ul-event{
+    color: #FCBF00;
+}
+
+.evento h3 {
+    color: #FCBF00;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.evento p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0 100px;
+}
+
