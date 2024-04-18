@@ -100,43 +100,5 @@
     background-color: #3f3f3f;
 }
 
-/* Encabezado de la página "Eventos" */
-.header3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh !important;
-    background: url(img/loschulis2.png) no-repeat center;
-    background-size: cover;  /* Ajusta la imagen de fondo */
-}
 
-/* Contenedor de la sección "Eventos" */
-.events {
-    background-color: #1d1d1d;
-    padding: 30px;
-}
-
-/* Estilos para el artículo "Eventos" */
-.events-description {
-    margin-bottom: 40px;
-}
-.titleh3{
-    color: #FCBF00;
-}
-.ul-event{
-    color: #FCBF00;
-}
-
-.evento h3 {
-    color: #FCBF00;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.evento p {
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 20px;
-    padding: 0 100px;
-}
 
