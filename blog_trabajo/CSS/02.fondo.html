@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="02.background.css">
+    <title>Background</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+        h1, h2 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        code {
+            font-family: monospace;
+            font-weight: 600;
+            color: #111;
+        }
+        pre {
+            background-color: rgba(128, 128, 128, 0.7);
+        }
+        div {
+        background-color: green;
+        }
+
+        div.first {
+        opacity: 0.1;
+        }
+
+        div.second {
+        opacity: 0.3;
+        }
+
+        div.third {
+        opacity: 0.6;
+        }
+        div.gradient {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(230, 230, 230);
+            height: 100px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            background: rgb(131,58,180);
+            background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        }
+    </style>
+</head>
+<body>
+    <h2>background-color</h2>
+    <div class="first">
+    <h1>opacity 0.1</h1>
+    </div>
+    
+    <div class="second">
+    <h1>opacity 0.3</h1>
+    </div>
+    
+    <div class="third">
+    <h1>opacity 0.6</h1>
+    </div>
+    
+    <div>
+    <h1>opacity 1 (default)</h1>
+    </div>
+
+    <h2>background con gradiente</h2>
+    <div class="gradient"><p>gradiente</p></div>
+</body>
+</html>
