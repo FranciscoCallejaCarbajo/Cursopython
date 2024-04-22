@@ -20,20 +20,16 @@
 }
 .titleh3{
     color: #FCBF00;
+    padding: 10px;
 }
 .ul-event{
     color: #FCBF00;
 }
 
-.evento h3 {
-    color: #FCBF00;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
 
-.evento p {
+.events p {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 20px;
     padding: 0 100px;
 }
@@ -70,6 +66,57 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para darle profundidad */
     
 }
+
+/* Contenedor de la sección "Eventos2" */
+.events2 {
+    background-color: #171717;
+    padding: 30px;
+}
+
+/* Estilos para el artículo "Eventos" */
+.events-description-lleida {
+    margin-bottom: 40px;
+}
+
+.events2 p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0 100px;
+}
+
+/* Contenedor de la sección "Eventos3" */
+
+.events3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(img/cod.jpg) no-repeat center;
+    background-size: cover;  /* Ajusta la imagen de fondo */
+}
+
+.events3 p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0 100px;
+}
+
+/* Contenedor de la sección "Eventos4" */
+.events4 {
+    background-color: #171717;
+    padding: 30px;
+}
+
+.events4 p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0 100px;
+}
+
+
 
 /* Estilos para los controles de video
 video::-webkit-media-controls {
