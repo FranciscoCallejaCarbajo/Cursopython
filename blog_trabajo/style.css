@@ -104,34 +104,44 @@ p {
     color: #fff;
     padding: 0 100px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
 
 /* Estilos para los botones */
 .btn {
+    
+    font-family: Roboto, sans-serif;
+    font-weight: 200;
+    font-size: 14px;
     display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    /* border: 2px solid #1E1E1D; */
-    border-radius: 10px;
-    border: 2px solid #FCBF00;
+    background: linear-gradient(90deg, #1E1E1D 49%, #fcbf00 100%);
+    padding: 12px 37px;
+    border: solid #fcbf00 2px;
+    box-shadow: rgb(0, 0, 0) 0px 6px 27px 12px;
+    border-radius: 11px 50px 0px;
+    transition: 793ms;
+    transform: translateY(0);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Para centrar horizontalmente */
+    text-align: center; /* Para centrar el texto */
+    cursor: pointer;
+    text-decoration: none; /* Para quitar el subrayado */
     color: #FCBF00;
-    text-decoration: none;
-    /* background-color: #FCBF00; */
-    background-color: #1E1E1D; 
 }
 
 /* Estilos al hacer hover en los botones */
 .btn:hover {
-    background: none;
+    /* background: none; */
+    transition : 793ms;
+    padding: 10px 46px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #1E1E1D 49%, #fcbf00 100%);
+    color: #fcbf00;
+    border: solid 2px #fcbf00;
+
 }
 
-/* Estilos para los botones de la sección principal */
-.btn-home {
-    display: flex;
-}
-
-.btn-home a {
-    margin: 0 10px;
-}
 
 
 /* Estilos para los contenedores de contenido */
