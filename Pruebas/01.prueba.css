@@ -1,0 +1,245 @@
+/* Reseteo de estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+}
+
+/* :root {
+    --color-primario: #1E1E1D;
+    --color-secundario: #FCBF00;
+    --color-fondo: #171717;
+    --color-texto: #fff;
+    
+} */
+
+/* Estilos para el logo */
+.imglogo {
+    width: 5rem;
+}
+
+/* Estilos para la imagen del título */
+.imgtitulo1 {
+    width: 20rem;
+}
+
+/* Estilos generales del body */
+body {
+    text-align: center;  /* Centra el texto */
+    font-family: sans-serif;  /* Usa una fuente sans-serif */
+}
+
+/* Estilos para el encabezado fijo */
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #1E1E1D;
+    position: fixed;  /* Fija el encabezado en la parte superior */
+    width: 100%;
+    z-index: 100;  /* Coloca el encabezado por encima de otros elementos */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+/* Estilos para el contenedor del logo */
+.logo {
+    margin-left: 30px;
+}
+
+/* Estilos para los enlaces del logo */
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* Estilos para el título principal */
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* Estilos al hacer hover en los enlaces de navegación */
+.navbar a:hover {
+    background-color: #3f3f3f;
+}
+
+/* Estilos para el encabezado principal */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(/blog_trabajo/img/lan_parti_lleida.jpg) no-repeat center;
+    background-size: cover;  /* Ajusta la imagen de fondo */
+}
+
+/* Encabezado de la página "Eventos" */
+.header3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(/blog_trabajo/img/GBCN_G_amarillo.png) no-repeat center;
+    background-size: cover;  /* Ajusta la imagen de fondo */
+}
+
+/* Contenedor de la sección "Eventos" */
+.events {
+    background-color: #1d1d1d;
+    padding: 30px;
+}
+
+/* Estilos para el artículo "Eventos" */
+.events-description {
+    margin-bottom: 40px;
+}
+.titleh3{
+    color: #FCBF00;
+    padding: 10px;
+    font-size: 18px;
+}
+.ul-event{
+    color: #FCBF00;
+}
+
+
+.events p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0 100px;
+}
+
+
+
+/* Estilos para la galería de imágenes de "Eventos" */
+.events-gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.video{
+    background: url(img/lan_parti_lleida.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Estilos para el contenedor del video */
+.video-container {
+    margin: 20px ;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 20px; /* Espacio superior para separar el video del texto */
+}
+.video-container video {
+    max-width: 52rem; /* Asegurarse de que el video sea responsive */
+    height: auto; /* Mantener la proporción del video */
+    display: inline-block; /* Para que el video sea inline y se pueda centrar con text-align */
+    border-radius: 8px; /* Bordes redondeados para el video */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para darle profundidad */
+    
+}
+
+/* Contenedor de la sección "Eventos2" */
+.events2 {
+    background-color: #171717;
+    padding: 30px;
+}
+
+/* Estilos para el artículo "Eventos" */
+.events-description-lleida {
+    margin-bottom: 40px;
+}
+
+.events2 p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0 100px;
+}
+
+/* Contenedor de la sección "Eventos3" */
+
+.events3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(img/cod.jpg) no-repeat center;
+    background-size: cover;  /* Ajusta la imagen de fondo */
+}
+
+.events3 p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0 100px;
+}
+
+/* Contenedor de la sección "Eventos4" */
+.events4 {
+    background-color: #171717;
+    padding: 30px;
+}
+
+.events4 p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0 100px;
+}
+
+
+
+/* Estilos para los controles de video
+video::-webkit-media-controls {
+    background-color: rgba(0, 0, 0, 0.7); Fondo semi-transparente para los controles
+}
+
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-volume-slider-container,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display {
+    color: #FCBF00; Color de los controles
+} */
+
+/* Estilos para los controles de video al hacer hover */
+video:hover::-webkit-media-controls {
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo más oscuro al hacer hover */
+}
+
+.image-gallery {
+    width: 16rem;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    margin-right: 40px;  /* Aumenta el margen derecho */
+}
+
