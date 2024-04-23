@@ -1,0 +1,71 @@
+/* Margins */
+
+body {
+    background-color: brown;
+    margin: 10px;
+    border: 1px dashed burlywood;
+    margin-top: 100px;
+}
+
+p {
+    display: inline-block;
+    background-color: brown;
+    width: 100px;
+}
+.p0 {
+    width: 100%;
+}
+.p1 {
+    width: 30vw;
+}
+.p2 {
+    width: 20vw;
+}
+.p3 {
+    width: 100%;
+}
+p.margin {
+    display: inline-block;
+    width: 25vw;
+    background-color: brown;
+    height: 50px;
+    border: 1px solid burlywood;
+    /* un valor se aplica a todas las direcciones: */
+    margin: 10px;
+
+    /* top-bottom, left-right */
+    /* margin: 10px 20px; */
+
+    /* top, left-right, bottom: */
+    /* margin: 10px 20px 30px; */
+
+    /* top right bottom left: */
+    /* margin: 10px 20px 30px 40px; */
+}
+
+/* Ejemplo navbar: */
+nav {
+    position: absolute;
+    left:0;
+    top: 0;
+    /* margin: 0 auto; */
+    background-color: beige;
+    width: 100vw;
+}
+nav a {
+    color: brown;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+    left: 0;
+    bottom: 0;
+    background-color: gray;
+    height: 100px;
+    margin: 0;
+    width: 100vw;
+}
