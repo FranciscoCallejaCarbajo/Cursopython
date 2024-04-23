@@ -68,8 +68,8 @@
     
 }
 
-/* Contenedor de la sección "Eventos2" */
-.events2 {
+/* Contenedor de la sección "Evento LLeida" */
+.eventslleida {
     background-color: #171717;
     padding: 30px;
 }
@@ -77,6 +77,23 @@
 /* Estilos para el artículo "Eventos" */
 .events-description-lleida {
     margin-bottom: 40px;
+}
+
+#img-lleida{
+    width: 620px;
+    height: 300px;
+    padding-right: 90px;
+
+}
+
+#video-lleida{
+    padding-right: 90px;
+
+}
+
+.audiovisual-lleida{
+    display: flex;
+
 }
 
 .events2 p {
