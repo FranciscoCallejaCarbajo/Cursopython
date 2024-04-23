@@ -32,9 +32,9 @@ body {
     font-family: sans-serif;  /* Usa una fuente sans-serif */
 }
 
-/* Estilos para el encabezado fijo */
+/* Estilos para el encabezado fijo */ /*barra de navegacion*/
 .head {
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: space-between;
     height: 63px;
@@ -77,6 +77,8 @@ body {
 .navbar a:hover {
     background-color: #3f3f3f;
 }
+/*fin de la barra de navegacion*/
+
 
 /* Estilos para el encabezado principal */
 .header {
@@ -104,6 +106,8 @@ p {
     color: #fff;
     padding: 0 100px;
 }
+
+/*botones*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
 
 
