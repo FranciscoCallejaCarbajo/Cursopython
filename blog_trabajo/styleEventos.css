@@ -60,7 +60,7 @@
 
 #video-lleida {
     /* Eliminamos el padding-right */
-    padding-right: 120px;
+    padding-right: 90px;
     /* Ajustamos el tamaño del video */
     flex-shrink: 0; /* Evita que el video se contraiga */
 }
@@ -68,7 +68,7 @@
 #parrafo-lleida-ex {
     /* Ajustamos el texto a la derecha */
     flex-grow: 1; /* Permite que el párrafo crezca */
-    margin-left: 30px; /* Agregamos un margen a la izquierda para separarlo del video */
+    margin-left: 20px; /* Agregamos un margen a la izquierda para separarlo del video */
     text-align: justify;
     font-size: 18px;
 }
@@ -85,25 +85,49 @@
 }
 
 
-/* Contenedor de la sección "Eventos3" */
+/* Contenedor de la sección "Martorell" */
 
-.events3{
+.martorell{
+    background-color: #171717;
+    padding-top: 40px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+/*Estilos para el articulo "martorell"*/
+
+.events-description-martorell{
+    margin-bottom: 40px;
+
+}
+
+#video-martorell{
+    padding-left: 120px;
+    flex-shrink: 0;
+
+}
+
+#parrafo-martorell-ex{
+    flex-grow: 1;
+    margin-right: 30px;
+    text-align: justify;
+    font-size: 18px;
+
+}
+
+.audiovisual-martorell{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh !important;
-    background: url(img/cod.jpg) no-repeat center;
-    background-size: cover;  /* Ajusta la imagen de fondo */
+    padding-bottom: 30px;
+
 }
 
-.events3 p {
-    color: #fff;
-    font-size: 16px;
-    margin-bottom: 20px;
-    padding: 0 100px;
+/* Estilo adicional para la alineación del texto */
+.audiovisual-martorell p {
+    margin: 0; /* Elimina el margen por defecto del párrafo */
 }
 
-/* Contenedor de la sección "Eventos4" */
+
+/* Contenedor de la sección "saga" */
 .events4 {
     background-color: #171717;
     padding: 30px;
