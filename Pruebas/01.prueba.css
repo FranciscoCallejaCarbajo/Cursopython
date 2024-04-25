@@ -12,12 +12,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    /* background-color: #333; */
     max-width: 1200px; /* Anchura máxima del contenedor */
     margin: 50px auto; /* Margen superior e inferior de 50px y centrado horizontal */
 }
 
+/* .img{
 
+    
+} */
 
 
 .navbar ul {
@@ -27,7 +30,11 @@
 }
 
 .navbar li {
-    margin: 0 15px; /* Espacio entre elementos de la lista */
+    background-color: darkslategray;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: flex;
 }
 
 .navbar a {
@@ -35,4 +42,5 @@
     color: white;
     padding: 10px 15px;
     display: block;
+
 }
