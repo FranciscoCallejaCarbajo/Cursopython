@@ -1,0 +1,74 @@
+/* Encabezado de la página "Equipos" */
+.header3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(img/chico_lan.jpg) no-repeat center;
+    background-size: cover;  /* Ajusta la imagen de fondo */
+}
+
+/* Contenedor de la seccion "Equipos"*/
+
+.equipos{
+    background-color: #1d1d1d;
+    padding: 30px;
+}
+
+.titleh3{
+    color: #FCBF00;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.ul-equipos a{
+    color: #FCBF00;
+    text-decoration: none;
+    
+}
+
+.ul-equipos ul {
+    list-style-type: none; /* Elimina los puntos (viñetas) de la lista */
+    padding-left: 0px; /* Elimina el padding izquierdo que tienen por defecto las listas */
+    
+}
+
+/* Contenedor de la sección "Equipo titular" */
+.titular {
+    background: url(img/lan_parti_lleida.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+/* Estilos para el artículo "Eventos" */
+.equipo-description-titular {
+    margin-bottom: 40px;
+}
+
+#video-equipo {
+    /* Eliminamos el padding-right */
+    padding-right: 90px;
+    /* Ajustamos el tamaño del video */
+    flex-shrink: 0; /* Evita que el video se contraiga */
+}
+
+#parrafo-equipotitular-ex {
+    /* Ajustamos el texto a la derecha */
+    flex-grow: 1; /* Permite que el párrafo crezca */
+    margin-left: 20px; /* Agregamos un margen a la izquierda para separarlo del video */
+    text-align: justify;
+    font-size: 18px;
+}
+
+.audiovisual-titular {
+    display: flex;
+    /*align-items: center;*/ /*Centra verticalmente los elementos*/ /*IMPORTANTE TENGO QUE MIRARLO*/
+    padding-bottom: 30px;
+}
+
+/* Estilo adicional para la alineación del texto */
+.audiovisual-titular p {
+    margin: 0; /* Elimina el margen por defecto del párrafo */
+}

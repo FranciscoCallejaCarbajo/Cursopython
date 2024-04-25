@@ -27,6 +27,11 @@
     color: #FCBF00;
 }
 
+.ul-event ul {
+    list-style-type: none; /* Elimina los puntos (viñetas) de la lista */
+    padding-left: 0; /* Elimina el padding izquierdo que tienen por defecto las listas */
+}
+
 
 .events p {
     color: #fff;
