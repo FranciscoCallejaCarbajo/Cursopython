@@ -1,0 +1,9 @@
+/* Encabezado de la página "Eventos" */
+.header3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(img/chico_lan.jpg) no-repeat center;
+    background-size: cover;  /* Ajusta la imagen de fondo */
+}
