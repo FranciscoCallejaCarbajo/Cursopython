@@ -41,7 +41,7 @@ body {
     background-color: #1E1E1D;
     position: fixed;  /* Fija el encabezado en la parte superior */
     width: 100%;
-    z-index: 100;  /* Coloca el encabezado por encima de otros elementos */
+    z-index: 1;  /* Coloca el encabezado por encima de otros elementos */
 }
 
 /* Estilos para la barra de navegación */
