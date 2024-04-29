@@ -22,15 +22,24 @@
 }
 
 .ul-equipos a{
+    display: block;
+    padding: 20px 20px;
     color: #FCBF00;
     text-decoration: none;
-    
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
 .ul-equipos ul {
     list-style-type: none; /* Elimina los puntos (viñetas) de la lista */
     padding-left: 0px; /* Elimina el padding izquierdo que tienen por defecto las listas */
-    
+    display: flex;
+    justify-content: center;
+}
+.ul-equipos li:hover {
+    background-color: #333; /* Cambia el color de fondo al pasar el ratón */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    padding: 5px 10px; /* Añade espacio alrededor del texto */
 }
 
 /* Contenedor de la sección "Equipo titular" */
