@@ -1,0 +1,103 @@
+/* Propiedades CSS */
+
+:root{
+  font-size: 16px; /*  */
+}
+body {
+  padding: 1rem; /* por defecto 1em = 16px */
+}
+h1 {
+  font-size: 2rem;
+}
+h3 {
+  margin: 1em auto;
+}
+
+/* max-width */
+
+div {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  /* Importante para que no desborde del width o height establecido: */
+  box-sizing: border-box;
+}
+.div-1, .div-2, .div-3 {
+  border: 1px solid brown;
+}
+
+/* 
+  width => max, min
+  height => max, min
+*/
+.div-1{
+  max-width: 200px;
+  width: 500px; 
+}
+.div-2 {
+  max-width: 100%;
+  width: 80%;
+}
+.div-3 {
+  min-width: 200px;
+  width: 300px;
+  max-height: 200px;
+  height: 300px;
+}
+
+/* position */
+
+.relative {
+  position: relative;
+  border: 1px solid black;
+}
+.absolute {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.fixed {
+  position: fixed;
+  width: 20%;
+  background-color: yellow;
+  bottom: 0;
+  right: 0;
+}
+.sticky {
+  position: sticky;
+  width: 20%;
+  background-color: lightgray;
+  bottom: 0;
+  left: 0;
+}
+
+/* z-index */
+
+#container img {
+  z-index: -1;
+}
+
+#container h3 {
+  display: inline-block;
+  position: absolute;
+  color:gray;
+  text-shadow: 1px 1px 2px white;
+  z-index: 1;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#video {
+  width:30%;
+  margin: 0 auto;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+#video video {
+  z-index: -1;
+}
+#video h2 {
+  position: absolute;
+  color: white;
+  z-index: 0;
+}

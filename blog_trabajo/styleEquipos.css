@@ -47,12 +47,13 @@
     margin-bottom: 40px;
 }
 
-#video-equipo {
+ #img-equipo {
     /* Eliminamos el padding-right */
     padding-right: 90px;
     /* Ajustamos el tamaño del video */
     flex-shrink: 0; /* Evita que el video se contraiga */
-}
+    width: 550px;
+} 
 
 #parrafo-equipotitular-ex {
     /* Ajustamos el texto a la derecha */
