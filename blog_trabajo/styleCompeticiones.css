@@ -71,6 +71,63 @@
 
 .gse{
     background-color: #171717;
-    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
+.audiovisual-gse {
+    display: block; /* Utiliza flexbox */
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.img-gse-style{
+    width: 250px;
+    display: inline-block;
+
+}
+
+/* Estilos para los botones */
+.btn-gse {
+    
+    font-family: Roboto, sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    display: inline-block;
+    background: linear-gradient(90deg, #1E1E1D 49%, #fcbf00 100%);
+    padding: 12px 37px;
+    border: solid #fcbf00 2px;
+    box-shadow: rgb(0, 0, 0) 0px 6px 27px 12px;
+    border-radius: 11px 50px 0px;
+    transition: 793ms;
+    transform: translateY(0);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Para centrar horizontalmente */
+    text-align: center; /* Para centrar el texto */
+    cursor: pointer;
+    text-decoration: none; /* Para quitar el subrayado */
+    color: #FCBF00;
+
+}
+
+/* Estilos al hacer hover en los botones */
+.btn-gse:hover {
+    /* background: none; */
+    transition : 793ms;
+    padding: 10px 46px;
+    transform : translateY(-0px);
+    background: linear-gradient(90deg, #1E1E1D 49%, #fcbf00 100%);
+    color: #fcbf00;
+    border: solid 2px #fcbf00;
+
+}
+
+.imagen-btn {
+    margin-left: 20px; /* Espacio entre la imagen y el botón */
+    width: 100vw;
+    height: auto;
+}
+
+.imagen-btn img {
+    margin-right: 10px; /* Espacio entre la imagen y el botón */
+}
