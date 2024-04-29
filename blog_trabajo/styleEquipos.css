@@ -49,10 +49,10 @@
 
  #img-equipo {
     /* Eliminamos el padding-right */
-    padding-right: 90px;
-    /* Ajustamos el tamaño del video */
-    flex-shrink: 0; /* Evita que el video se contraiga */
-    width: 550px;
+    padding-right: 150px;
+    width: calc(600px - 150px); /* Ajustamos el ancho de la imagen */
+    width: 600px;
+    /* border: solid #FCBF00 1px ; */
 } 
 
 #parrafo-equipotitular-ex {
@@ -71,5 +71,127 @@
 
 /* Estilo adicional para la alineación del texto */
 .audiovisual-titular p {
+    margin: 0; /* Elimina el margen por defecto del párrafo */
+}
+
+/* Contenedor de la sección "Equipo Nextlvl" */
+.nextlvl {
+    background-color: #1d1d1d;
+    padding: 30px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+/* Estilos para el artículo "Eventos" */
+.equipo-description-nextlvl {
+    margin-bottom: 40px;
+}
+
+ #img-equipo-nextlvl {
+    /* Eliminamos el padding-right */
+    padding-left: 120px;
+    width: calc(600px - 120px); /* Ajustamos el ancho de la imagen */
+    width: 600px;
+    /* border: solid #FCBF00 1px ; */
+} 
+
+#parrafo-nextlvl-ex {
+    /* Ajustamos el texto a la derecha */
+    flex-grow: 1; /* Permite que el párrafo crezca */
+    margin-left: 20px; /* Agregamos un margen a la izquierda para separarlo del video */
+    text-align: justify;
+    font-size: 18px;
+}
+
+.audiovisual-nextlvl {
+    display: flex;
+    /*align-items: center;*/ /*Centra verticalmente los elementos*/ /*IMPORTANTE TENGO QUE MIRARLO*/
+    padding-bottom: 30px;
+}
+
+/* Estilo adicional para la alineación del texto */
+.audiovisual-nextlvl p {
+    margin: 0; /* Elimina el margen por defecto del párrafo */
+}
+
+
+/* Contenedor de la sección "Equipo valorant" */
+.valo {
+    background: url(img/valoteam.png) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+/* Estilos para el artículo "Eventos" */
+.equipo-description-valo {
+    margin-bottom: 40px;
+}
+
+ #img-equipo-valo {
+    /* Eliminamos el padding-right */
+    padding-right: 150px;
+    width: calc(600px - 150px); /* Ajustamos el ancho de la imagen */
+    width: 600px;
+    /* border: solid #FCBF00 1px ; */
+} 
+
+#parrafo-valo-ex {
+    /* Ajustamos el texto a la derecha */
+    flex-grow: 1; /* Permite que el párrafo crezca */
+    margin-left: 20px; /* Agregamos un margen a la izquierda para separarlo del video */
+    text-align: justify;
+    font-size: 18px;
+}
+
+.audiovisual-valo {
+    display: flex;
+    /*align-items: center;*/ /*Centra verticalmente los elementos*/ /*IMPORTANTE TENGO QUE MIRARLO*/
+    padding-bottom: 30px;
+}
+
+/* Estilo adicional para la alineación del texto */
+.audiovisual-valo p {
+    margin: 0; /* Elimina el margen por defecto del párrafo */
+}
+
+/* Contenedor de la sección "Equipo academy" */
+.academy {
+    background-color: #171717;
+    padding: 30px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+/* Estilos para el artículo "Eventos" */
+.equipo-description-academy {
+    margin-bottom: 40px;
+}
+
+ #img-equipo-academy {
+    /* Eliminamos el padding-right */
+    padding-left: 120px;
+    width: calc(600px - 120px); /* Ajustamos el ancho de la imagen */
+    width: 600px;
+    /* border: solid #FCBF00 1px ; */
+} 
+
+#parrafo-academy-ex {
+    /* Ajustamos el texto a la derecha */
+    flex-grow: 1; /* Permite que el párrafo crezca */
+    margin-left: 20px; /* Agregamos un margen a la izquierda para separarlo del video */
+    text-align: justify;
+    font-size: 18px;
+}
+
+.audiovisual-academy {
+    display: flex;
+    /*align-items: center;*/ /*Centra verticalmente los elementos*/ /*IMPORTANTE TENGO QUE MIRARLO*/
+    padding-bottom: 30px;
+}
+
+/* Estilo adicional para la alineación del texto */
+.audiovisual-academy p {
     margin: 0; /* Elimina el margen por defecto del párrafo */
 }
