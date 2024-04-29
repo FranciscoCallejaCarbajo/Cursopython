@@ -1,4 +1,5 @@
 /* Encabezado de la página "Eventos" */
+/* Encabezado de la página "Equipos" */
 .header3 {
     display: flex;
     justify-content: center;
@@ -7,3 +8,69 @@
     background: url(img/chico_lan.jpg) no-repeat center;
     background-size: cover;  /* Ajusta la imagen de fondo */
 }
+
+/* Contenedor de la seccion "Equipos"*/
+.titleh3-competiciones{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+
+}
+
+.titleh3{
+    color: #FCBF00;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.gse-contenido{
+
+    background-color: #1d1d1d;
+    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+
+.ul-ligas {
+    display: flex; /* Hace que los divs dentro de .ul-ligas se muestren en línea */
+    justify-content: center;
+
+}
+
+.ul-ligas a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #FCBF00;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.ul-ligas ul{
+    list-style-type: none;
+}
+
+.ul-ligas li:hover {
+    background-color: #333; /* Cambia el color de fondo al pasar el ratón */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+}
+
+
+.gse-ul,
+.ct-ul {
+    display: inline-block; /* Muestra los divs en línea */
+    margin-right: 50px; /* Añade un espacio entre los divs */
+    list-style-type: none;
+}
+
+
+/* Seccion liga de la gse */
+
+.gse{
+    background-color: #171717;
+    padding: 30px;
+}
+

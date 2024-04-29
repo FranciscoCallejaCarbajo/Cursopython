@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.10.0/main.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleCompeticiones.css">
     
     <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Competiciones - Gaming Barcelona Esports Club</title>
@@ -22,7 +24,7 @@
     <!-- Encabezado -->
     <div class="head">
         <div class="logo">
-            <img class="imglogo" src="#" alt="LogoGbcn">
+            <img class="imglogo" src="img/LOGO_GBCN.png" alt="LogoGbcn">
         </div>
         <!-- Navegación -->
         <nav class="navbar">
@@ -34,10 +36,9 @@
         </nav>
     </div>
 
-    <header id="competiciones" class="content header2"> 
-        <h2 class="title">Competiciones</h2>
-        <h2 class="title"><!--<img class="imgtitulo1" src="img/GBCN_G_amarillo.png" alt="GBCN_G_amarillo">--></h2>
-        
+     <!-- Cabecera de la página de Eventos -->
+     <header id="competiciones" class="content header3"> 
+        <h2 class="title"><img class="imgtitulo1" src="img/GBCN_G_azul.png" alt="gbcn"></h2>
         <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum eum amet, modi ullam perferendis cum soluta tenetur laboriosam placeat mollitia atque animi eius corporis, quia quis deserunt sequi aliquid minima?
         </p>
@@ -47,38 +48,52 @@
             <a href="#" class="btn">Saber mas</a>
             
         </div>  -->
+        
+       
     </header>
 
-    <section class="content ">
-        <h2 class="title">En que ligas participamos</h2>
+    <section class="content gse-contenido">
+        <h2 class="title">Ligas</h2>
 
        
         <article>
+            <h3 class="titleh3">¿En que ligas participamos?</h3>
             <p>
                 Actualmente participamos en dos ligas en cuanto al equipo titular del lol uno es el circuito tormenta y otra es Game sports electronic (GSE)
             </p>
 
-            <div>
-                <p>Games Sports Electronics</p>
-                <li><a href="#">Game Sports Electronics(GSE)</a></li><br>
-                <p>Circuito Tormenta</p>
-                <li><a href="#">Circuito Tormenta(CT)</a></li>
+            <div class="ul-ligas">
+                <div class="gse-ul">
+                    <h3 class="titleh3-competiciones">Games Sports Electronics</h3>
+                    <ul>
+                    <li><a href="#">(GSE)</a></li><br>
+                    </ul>
+                </div>
+                <div class="ct-ul">
+                    <h3 class="titleh3-competiciones">Circuito Tormenta</h3>
+                    <ul>
+                        <li><a href="#">(CT)</a></li>
+                    </ul>
+                </div>
+               
             </div>
 
         </article>
     </section>
 
     <!-- GSE -->
-    <section>
+    <section class="content gse">
         <h2 class="title">GSE</h2>
 
-        <article>
-            <div>
-                <p>descripcion de la gse</p>
-                <a href="#" class="btn">Sobre Nosotros</a>
-                <img src="img/gse.jpg" alt="gse" width="100">
+        <article class="gse-descripcion">
+            <h3 class="titleh3">Descripción de la gse</h3>
+                <div class="audiovisual-gse">
 
-            </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repellendus enim veritatis ab eveniet? Aut, illo expedita! Facere quasi beatae atque? Ipsa, aut rem! Nemo voluptas quam ipsam hic quod!</p>
+                        <img src="img/gse.jpg" alt="gse" width="100">
+                        <a href="#" class="btn">Sobre Nosotros</a>
+                        
+                </div>
         </article>
 
 
