@@ -76,3 +76,111 @@ Codigo para el apartado Competiciones
     </div>
 </article>
 
+6. Galeria de imagenes
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+</body>
+</html>
+
+7. flotador
+
+>
+<html>
+<head>
+<style>
+div {
+  border: 3px solid #4CAF50;
+  padding: 5px;
+}
+
+.img1 {
+  float: right;
+}
+
+.img2 {
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+}
+</style>
+</head>
+<body>
+
+<h2>Without Clearfix</h2>
+
+<p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside of its container:</p>
+
+<div>
+  <img class="img1" src="pineapple.jpg" alt="Pineapple" width="170" height="170">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+</div>
+
+<h2 style="clear:right">With Clearfix</h2>
+<p>We can fix this by adding a clearfix class with overflow: auto; to the containing element:</p>
+
+<div class="clearfix">
+  <img class="img2" src="pineapple.jpg" alt="Pineapple" width="170" height="170">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+</div>
+
+</body>
+</html>
+
+
