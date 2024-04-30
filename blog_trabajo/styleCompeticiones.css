@@ -131,3 +131,37 @@
 .imagen-btn img {
     margin-right: 10px; /* Espacio entre la imagen y el botón */
 }
+
+/* Seccion liga de la ct */
+
+.ct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(img/chico_lan.jpg) no-repeat center;
+    background-size: cover;  /* Ajusta la imagen de fondo */
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.audiovisual-ct {
+    display: block; /* Utiliza flexbox */
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.img-ct-style{
+    width: 250px;
+    display: inline-block;
+
+}
+
+.imagen-btn-ct {
+    margin-left: 20px; /* Espacio entre la imagen y el botón */
+    width: 100vw;
+    height: auto;
+}
+
+.imagen-btn-ct img {
+    margin-right: 10px; /* Espacio entre la imagen y el botón */
+}
