@@ -33,6 +33,9 @@ let nombre = null;
 /*NaN*/
 let num1 = 4;
 
-let num2 = 2;
+let num2 = "tilt";
 
 alert (num1 + num2);
+
+
+alert(num1 * num2); /*Aqui nos saldra el error NaN esto es = a not a number*/
