@@ -24,13 +24,14 @@ alert (numero2);
 alert (numero3);
 
 
-/*Hoisting
-habla acerca de como funciona una cosa y como funciona la otra 
-*/
-/*Null*/
-let nombre = null;
+//Hoisting
+//habla acerca de como funciona una cosa y como funciona la otra 
 
-/*NaN*/
+//Null
+
+//let nombre = null;
+
+//NaN
 let num1 = 4;
 
 let num2 = "tilt";
@@ -39,3 +40,4 @@ alert (num1 + num2);
 
 
 alert(num1 * num2); /*Aqui nos saldra el error NaN esto es = a not a number*/
+
