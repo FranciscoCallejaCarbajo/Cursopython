@@ -1,18 +1,32 @@
 
 console.log('Hola mundo desde archivo externo!' + "<br>");
-document.write("Hola mundo desde archivo externo!" + "<br>");
+console.log("Hola mundo desde archivo externo!" + "<br>");
 
 let array = ['Pepe', 'Juan', 'jota', 'Sergio', 'Marina', 'Ivan'];
-document.write("hola soy: " + array[0] + "<br>");
+console.log("hola soy: " + array[0] + "<br>");
 
 for (let i = 0; i < array.length; i++){
 
-    document.write("los nombres del array son: " + [i] + " . " + array[i] + "<br>");
+    console.log("los nombres del array son: " + [i] + " . " + array[i] + "<br>");
 }
 
-if(array.length < 10){
+if(array.length < 7){
 
-    document.write("Existe");
+    console.log("Existe" + "<br>");
 
 }
-else{document.write("No existe");}
+else{
+    console.log("No existe")
+};
+
+if(array.length <6){
+
+    console.log("Existe");
+}
+else{
+    console.log("No existe")
+};
+
+document.getElementById("p1").innerHTML = "<h1>Hola buenas tardes</h1>"
+
+
