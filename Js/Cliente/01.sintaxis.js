@@ -3,5 +3,5 @@ console.log("hola")
 
 //confirm("desea continuar");
 
-document.write("hola buenos dias");
+document.write("hola buenos prueba desde portatil");
 
