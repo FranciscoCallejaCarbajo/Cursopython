@@ -28,3 +28,20 @@ const iva = 21;
  }
 
  document.getElementById("ej-1-1").innerText = `hola este es el iba : ${iba()}`;
+
+
+
+ let num1 = 3;
+ let num2 = 2;
+ document.getElementById("ej-1-2").innerText = `hola: ${num1} ${num2}`
+ 
+ let num1_2;
+ let num2_1;
+
+ num1_2 = num2;
+ num2_1 = num1;
+
+ num1 = num1_2;
+ num2 = num2_1;
+
+ document.getElementById("ej-1-3").innerText = `hola: ${num1} ${num2}`
