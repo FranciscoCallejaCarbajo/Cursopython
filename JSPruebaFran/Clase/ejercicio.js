@@ -2,8 +2,7 @@
 //input : 100,21
 //output: 121
 
-let dineroTexto = prompt("Por favor, ingresa su dinero:");
-let dinero = parseInt(dineroTexto);
+let dinero = Number(prompt("Por favor, ingresa su dinero:"));
 
 console.log(dinero);
 
@@ -28,4 +27,4 @@ const iva = 21;
     return resultado;
  }
 
- document.getElementById("ej-1-1").innerText = iba();
+ document.getElementById("ej-1-1").innerText = `hola este es el iba : ${iba()}`;
