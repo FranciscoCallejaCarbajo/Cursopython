@@ -184,21 +184,21 @@ p {
     border: 1px solid #30BEF0; /* Añadir esta línea para establecer el color del borde */
 }
 
-#samarretagbcn{
+.samarretagbcn{
     width: 150px;
 
 }
-#manga{
+.manga{
     width: 250px;
 }
 
-#llavero{
+.llavero{
 
     width: 120px;
 
 }
 
-#titleimgproductos{
+.titleimgproductos{
     margin-top: 10px;
     
 
