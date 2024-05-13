@@ -45,3 +45,8 @@ const iva = 21;
  num2 = num2_1;
 
  document.getElementById("ej-1-3").innerText = `hola: ${num1} ${num2}`
+
+
+    x = 2;
+    x++;
+    document.getElementById("ej-1-4").innerText = `hola: ${x}`;
