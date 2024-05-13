@@ -161,6 +161,7 @@ p {
 .sau {
     padding: 50px 0;
     background-color: #1d1d1d;
+
 }
 
 /* Estilos para el contenedor de los productos */
@@ -173,8 +174,8 @@ p {
 
 /* Estilos para los contenedores de cada producto */
 .box-container .box {
-    height: 11rem;
-    width: 17rem;
+    height: 13rem;
+    width: 20rem;
     background-color: #101010;
     text-align: center;
     border-radius: 1rem;
@@ -183,6 +184,25 @@ p {
     border: 1px solid #30BEF0; /* Añadir esta línea para establecer el color del borde */
 }
 
+#samarretagbcn{
+    width: 150px;
+
+}
+#manga{
+    width: 250px;
+}
+
+#llavero{
+
+    width: 120px;
+
+}
+
+#titleimgproductos{
+    margin-top: 10px;
+    
+
+}
 
 /* Estilos para los íconos de los productos */
 .box-container .box i {
