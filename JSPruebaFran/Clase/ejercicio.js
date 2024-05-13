@@ -50,3 +50,12 @@ const iva = 21;
     x = 2;
     x++;
     document.getElementById("ej-1-4").innerText = `hola: ${x}`;
+
+
+
+    const numeros = [2, 7, 11, 6, 4, 9, 40,60,3];
+
+    const numerosFiltrados = numeros.filter(numero => numero > 0 && numero < 10);
+    
+    document.getElementById("ej-1-5").innerText = `hola: ${numerosFiltrados}`; // Salida: [7, 6, 9]
+    
