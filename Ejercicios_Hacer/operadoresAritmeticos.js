@@ -98,6 +98,7 @@ document.getElementById("ej-2.5.3").innerText = `El resultado es: ${calculo3}`;
 
 //OPERADORES DE ASIGNACION
 
+//Ejercicio 1
 let c = 10 + 3;
 
 console.log(c);
@@ -110,5 +111,34 @@ let resultado_cc = cc+=3;
 
 document.getElementById("eje-1.1").innerText = `El resultado es: ${resultado_cc}`;
 
+//Ejercicio 2
+
+
+let variableTotal = 50;
+
+let resultado1_1 = variableTotal - 10;
+
+variableTotal = resultado1_1;
+
+console.log(variableTotal);
+
+
+let porcentaje = variableTotal * 0.21;
+
+let resultado1_2= variableTotal + porcentaje;
+
+variableTotal = resultado1_2;
+
+console.log(variableTotal);
+
+let porcentaje_10 = 20 * 0.10;
+
+let añadir = 20 + porcentaje_10;
+
+let resultado1_3 = variableTotal + añadir;
+
+variableTotal = resultado1_3;
+
+console.log(variableTotal);
 
 
