@@ -39,17 +39,76 @@ document.getElementById("ej-2").innerText = `El area del triangulo es: ${resulta
 
 //para hacer una calculadora de areas de triangulo haria lo siguiente:
 
-function calcularAreaTriangulo(base,altura){
+// function calcularAreaTriangulo(base,altura){
 
-    let area1 = (1/2) * base * altura;
-    return area1;
+//     let area1 = (1/2) * base * altura;
+//     return area1;
 
-}
+// }
 
-let base1 = Number(prompt("Dime tu base"));
-let altura1 = Number(prompt("Dime tu altura"));
+// let base1 = Number(prompt("Dime tu base"));
+// let altura1 = Number(prompt("Dime tu altura"));
 
-let area1 = calcularAreaTriangulo(base1,altura1);
+// let area1 = calcularAreaTriangulo(base1,altura1);
 
 
-document.getElementById("ej-2.1").innerText = `El area del triangulo es: ${area1}`;
+// document.getElementById("ej-2.1").innerText = `El area del triangulo es: ${area1}`;
+
+//Ejercicio numero 3 
+
+let cuenta = 25/ (5-5);
+
+let resultado8 = cuenta + 10;
+
+document.getElementById("ej-2.2").innerText = `El resultado es: ${resultado8}`;
+
+//perimetro de un cuadrado
+
+let lado = 8;
+
+let perimetro = 4 * lado;
+
+
+document.getElementById("ej-2.3").innerText = `El resultado es: ${perimetro}`;
+
+//calculadora calcular perimetro 
+
+// let ladoC = Number(prompt("introduce valor del lado de tu cuadrado"));
+
+// function calcularPerimetro (lado){
+
+//     return lado * 4;
+
+// }
+
+// let perimetroT = calcularPerimetro(lado);
+
+// document.getElementById("ej-2.4").innerText = `El resultado es: ${perimetroT}`;
+
+
+//ejercicio 5 calcula el resultado elevado a
+
+let calculo1 = 2**3;
+let  calculo2 = 2^0;
+let calculo3 = 0^0;
+
+document.getElementById("ej-2.5.1").innerText = `El resultado es: ${calculo1}`;
+document.getElementById("ej-2.5.2").innerText = `El resultado es: ${calculo2}`;
+document.getElementById("ej-2.5.3").innerText = `El resultado es: ${calculo3}`;
+
+//OPERADORES DE ASIGNACION
+
+let c = 10 + 3;
+
+console.log(c);
+
+document.getElementById("eje-1").innerText = `El resultado es: ${c}`;
+
+let cc = 10;
+
+let resultado_cc = cc+=3;
+
+document.getElementById("eje-1.1").innerText = `El resultado es: ${resultado_cc}`;
+
+
+
