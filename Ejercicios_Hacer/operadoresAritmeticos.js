@@ -122,7 +122,7 @@ variableTotal = resultado1_1;
 
 console.log(variableTotal);
 
-
+document.getElementById("eje-1.2").innerText = `El resultado es: ${variableTotal}`;
 let porcentaje = variableTotal * 0.21;
 
 let resultado1_2= variableTotal + porcentaje;
@@ -130,7 +130,7 @@ let resultado1_2= variableTotal + porcentaje;
 variableTotal = resultado1_2;
 
 console.log(variableTotal);
-
+document.getElementById("eje-1.3").innerText = `El resultado es: ${variableTotal}`;
 let porcentaje_10 = 20 * 0.10;
 
 let añadir = 20 + porcentaje_10;
@@ -140,5 +140,5 @@ let resultado1_3 = variableTotal + añadir;
 variableTotal = resultado1_3;
 
 console.log(variableTotal);
-
+document.getElementById("eje-1.4").innerText = `El resultado es: ${variableTotal}`;
 
