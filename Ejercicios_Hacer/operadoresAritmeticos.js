@@ -223,7 +223,7 @@ let comparacion3 = edad >= 25 && edad <= 35 ;
 
 document.getElementById("eje-1.7.3").innerText = `¿Está entre 25 y 35 años?: ${comparacion3}`;
 
-let comparacion4 = edad > 65 ;
+let comparacion4 = !(edad > 65) ;
 
 document.getElementById("eje-1.7.4").innerText = `¿No es mayor de 65 años?: ${comparacion4}`;
 
@@ -275,9 +275,11 @@ let lectura_espacio = string.includes(' ');
 console.log("¿Tiene algún espacio?: " + lectura_espacio);
 
 
+let noEsNuloUndefined = (string == null && string == undefined);
+console.log("¿Tiene mas de 5 chars?", noEsNuloUndefined);
 
-
-
+let tieneMasDe5Char = (string == null && string == undefined);
+console.log("¿Tiene mas de 5 chars?", tieneMasDe5Char);
 
 
 
