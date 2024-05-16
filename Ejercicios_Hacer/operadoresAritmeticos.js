@@ -20,6 +20,16 @@ let resultado4 = pi * r **2;
 
 document.getElementById("ej-1.4").innerText = `El resultado de 3.14 * r = 10 **2 es: ${resultado4}`
 
+
+const pi2 = 3.14;
+let r2 = Number(prompt("introduce radio:"))
+
+let resultado4_1 = pi * r2 **2;
+
+document.getElementById("ej-1.4.1").innerText = `El resultado de 3.14 * r = 10 **2 eeeeeeees: ${resultado4_1}`
+
+
+
 let a = 10 **3;
 let b = 10 **-3;
 
@@ -142,3 +152,15 @@ variableTotal = resultado1_3;
 console.log(variableTotal);
 document.getElementById("eje-1.4").innerText = `El resultado es: ${variableTotal}`;
 
+//Ejercicio 3
+
+let contador = 5;
+
+let resultado1_4 = contador * 2
+ resultado1_4 = resultado1_4 * 2;
+ resultado1_4 = resultado1_4 * 2;
+ resultado1_4 = resultado1_4 * 2;
+ resultado1_4 = resultado1_4 * 2;
+
+
+document.getElementById("eje-1.5").innerText = `El resultado es: ${resultado1_4}`;
