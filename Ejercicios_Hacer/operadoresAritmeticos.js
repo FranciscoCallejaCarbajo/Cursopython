@@ -232,6 +232,49 @@ let comparacion5 = edad >= 13 && edad <= 24 ;
 document.getElementById("eje-1.7.5").innerText = `Tiene entre 13 y 24 años cumplidos: ${comparacion5}`;
 
 
+let num1_v = 5;
+
+let resultado444 = num1_v >= 0;
+console.log("El numero es: " + resultado444);
+
+let resultado111 = num1_v >= -9 && num1_v <= 9;
+
+console.log("El numero es: " + resultado111);
+
+let calculo_par = num1_v % 2;
+let resultado_par = calculo_par ===0;
+console.log("El numero es par: " + resultado_par);
+
+let calculo_impar = num1_v % 2;
+let resultado_impar = calculo_impar !==0;
+console.log("El numero es par: " + resultado_impar);
+
+let calculo_divisible3 = num1_v % 3;
+let resultado_divisible3 = calculo_divisible3 ===0;
+console.log("El numero es divisible 3: " + resultado_divisible3);
+
+//Ejercicio 4 String
+
+//recorrer string : .length .charAt .includes
+let string = "Hola, ¿qué tal?";
+
+let lectura_de_string = string.length;
+
+let comparacion = lectura_de_string > 10;
+
+console.log("¿Tiene mas de 10 caracteres?: " + comparacion);
+
+//Leer si comienza por h
+
+let lectura_h = string.charAt(0) ==='H';
+
+console.log("¿Empieza por h?: " + lectura_h );
+
+let lectura_espacio = string.includes(' ');
+
+console.log("¿Tiene algún espacio?: " + lectura_espacio);
+
+
 
 
 
