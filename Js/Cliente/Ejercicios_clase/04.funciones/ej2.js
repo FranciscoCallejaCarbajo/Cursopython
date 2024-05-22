@@ -36,4 +36,4 @@ return cadena;
 let a = prompt("introduce la letra a")
 let numRep = Number(prompt("Introduce el numero de repeticiones"));
 
-console.log(`Esta es mi cade: ${repeticion(a,numRep)}`);
+console.log(`Esta es mi cadena: ${repeticion(a,numRep)}`);
