@@ -15,7 +15,7 @@
 
 // Esta vez validamos el tipo de dato:
 
-function main(){
+function ej2(){
   let num = Number(prompt("Ingresa un número:"));
   let mensaje = "";
   if (Number.isNaN(num) || typeof(num) != 'number'){
